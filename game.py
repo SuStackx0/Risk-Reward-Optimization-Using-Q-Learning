@@ -27,6 +27,7 @@ class BettingGame:
 game = BettingGame()
 
 coins, reward, win = game.step(1)
-print("coins:",coins)
-print("reward:",reward)
-print("win:",win)
+
+print("coins= ", coins)
+print("reward = ",reward)
+print("win = ",win)
