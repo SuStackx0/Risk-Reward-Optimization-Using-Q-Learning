@@ -14,10 +14,14 @@ class BettingGame:
         
         old_coins=self.coins
         
-        if win:
-            self.coins += bet
-        else:
-            self.coins -= bet
+        # if win:
+        #     self.coins += bet
+        # else:
+        #     self.coins -= bet
+        if not win:
+            self.coins -=bet
+        else :
+            self.coins +=bet
             
         reward=self.coins-old_coins
         
